@@ -1,0 +1,13 @@
+<configuration scan="true">
+
+  <!-- logging configuration for this project; edit this file as required, or override the files 
+       this includes as described in the Logging section of the brooklyn users guide.
+       start.sh-dist already supplies a logback-custom.xml which gets included to:
+       * log our classes at debug level
+       * write to both cloudsoft-start.sh.info.log and info-cloudsoft-start.sh.debug.log
+       * apply a rollover policy to those logs
+  -->
+
+  <include resource="logback-main.xml"/>
+  
+</configuration>
